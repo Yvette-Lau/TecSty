@@ -13,6 +13,7 @@
 	transition:0.3s;
 	width: 120px;
 	height: 60px;
+	margin-bottom: 15px;
 }
 
 #authenTec:hover{
@@ -89,3 +90,16 @@
 		width: 100%;
 	}
 }
+
+.fa-check-circle-o{
+	color: #53b983;
+}
+
+.fa-times-circle-o{
+	color: #8B4513;
+}
+
+.fa-minus-circle{
+	color: #FF8C69;
+}
+	
