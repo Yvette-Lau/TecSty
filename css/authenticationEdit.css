@@ -1,0 +1,28 @@
+.center-content{
+	border: 1px solid black;
+	margin: 20px;
+	padding-top: 55px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+label{
+	margin-top: 7px;
+}
+
+.infoRow{
+	margin-top: 15px;
+}
+
+#boyRaido, #girlRadio{
+	margin-top: 7px;
+}
+
+#certiPic{
+	padding-right: 0;
+}
+
+#submintBtn{
+	margin-top: 20px;
+}
