@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>创建班级</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./css/estabClass.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+</head>
+<body>
+	<div class="content">
+		<div class="row">
+			<div class="col-md-9">
+				<div class="center-content">
+					<div class="row infoRow">
+						<div class="col-md-2 col-md-offset-3">
+							<div class="row">
+								<div class="col-md-7 col-md-offset-5">
+									<label for="className">班级名：</label>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<input type="text" id="classname" name="classname" tabindex="1" class="form-control" placeholder="班级名" value="">
+						</div>
+					</div>
+					<div class="row infoRow">
+						<div class="col-md-2 col-md-offset-3">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-4">
+									<label for="classType">班级类型：</label>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<select class="form-control">
+								<option>新概念1</option>
+								<option>新概念2</option>
+								<option>性概念3</option>
+								<option>大学四级</option>
+								<option>大学六级</option>
+								<option>专四</option>
+								<option>专八</option>
+								<option>IELTS</option>
+								<option>TOEFL</option>
+							</select>
+						</div>
+					</div>
+					<div class="row infoRow">
+						<div class="col-md-2 col-md-offset-3">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-4">
+									<label for="classDesc">班级描述：</label>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<form action="" role="form">
+								<div class="form-group">
+									<textarea name="article" id="article"  rows="6" class="form-control">
+									</textarea>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="row" id="submintBtn">
+						<div class="col-md-2 col-md-offset-5">
+							<button type="button" class="btn btn-primary">
+								<a href="#" data-toggle="modal" data-target="#estabClassSub">提交</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="estabClassSub" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-titile" id="marksDetails">创建成功:</h4>
+					</div>
+					<div class="modal-body">
+						<p>亲爱的用户，您的班级ID：**********！</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">
+						Close
+						</button>
+					</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>
