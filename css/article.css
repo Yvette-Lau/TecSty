@@ -1,0 +1,90 @@
+.content{
+	position: relative;
+	width: 960px;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid grey;
+}
+
+.section-content{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding: 3px;
+	width: 910px;
+	height: 435px;
+	/*border: 1px solid orange;*/
+}
+
+.topicMod{
+	width: 900px;
+	height: 475px;
+	/*border: 1px solid grey;*/
+}
+
+.listItem{
+	margin-top: 5px;
+	margin-right: 10px;
+	width: 830px;
+	height: 28px;
+	/*border: 1px solid red;*/
+}
+
+.article{
+	float: left;
+	width: 600px;
+	height: 26px;
+	/*border: 1px solid green;*/
+
+}
+a:link{
+	font-size: 1.1em;
+	text-decoration: none;
+	color: #5CACEE;
+}
+
+a:visited{
+	color: #616161;
+}
+
+a:hover{
+	color: #FF8247;
+}
+
+
+.listDate{
+	float: right;
+	width: 150px;
+	height: 26px;
+	/*border: 1px solid green;*/
+	text-align: center;
+	font-size: 1.1em;
+	color: #9FB6CD;
+}
+
+.section-footer{
+	width: 910px;
+	height: 54px;
+	/*border: 1px solid pink;*/
+}
+
+#footerRow{
+	margin:3px 10px;
+	height: 44px;
+	/*border: 1px solid red;*/
+}
+
+.jpager-right{
+	float: left;
+	width: 180px;
+}
+
+.pagination{
+	margin-top: 5px;
+}
+
+.jpager-left{
+	margin: 13px 1px;
+	float: right;
+	color: #1b75bb;
+	font-size: 1em;
+}
