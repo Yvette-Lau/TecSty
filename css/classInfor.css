@@ -1,0 +1,16 @@
+.center-content{
+	border: 1px solid black;
+	margin: 20px;
+	padding-top: 55px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#classDesShow{
+	margin-top: 15px;
+}
+
+.fa-times-circle{
+	color:#A0522D;
+}
