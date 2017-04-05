@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+}
+
+
+#userform{
+	margin: 20px;
+	border:1px solid grey;
+	width: 950px;
+
+}
+
+.fa-user-circle{
+	margin-top: 40px;
+	padding-left: 65px;
+}
+
+.out-wrapper{
+	margin-top: 40px;
+	margin-left: -15px;
+	margin-bottom: 30px;
+}
+
+.account-name{
+	font-size: 1.5em;
+	color:#1b75bb;
+}
+
+
+#returnRow{
+	margin-bottom: 15px;
+}
