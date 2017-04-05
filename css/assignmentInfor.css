@@ -1,0 +1,71 @@
+.content{
+	position: relative;
+	width: 960px;
+	/*height: 1600px;*/
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid grey;
+}
+
+.titleModle{
+	width: 900px;
+	/*height: 39px;*/
+	padding: 4px;
+	/*border: 1px solid red;*/
+}
+
+.titleName{
+	width: 880px;
+	height: 28px;
+	/*border: 1px solid pink;*/
+}
+
+#topicLabel, #deadline{
+	font-size: 1.3em;
+}
+
+#topicAss{
+	display: inline;
+	font-size: 1.2em;
+	font-family: 'Tahoma', 'Verdana';
+	color: #7A7A7A;
+	background-color: #FDF5E6;
+}
+
+.descrModle{
+	margin:1px 0;
+	padding: 3px;
+	width: 900px;
+	/*height: 110px;*/
+	/*border: 1px solid grey;*/
+}
+
+#descrName{
+	font-size: 1.3em;
+	margin-bottom: 0px;
+}
+
+.descrShow{
+	width: 888px;
+	/*height: 70px;*/
+	padding-left: 4px;
+	/*border: 1px solid orange;*/
+	background-color: #FAFAD2;
+}
+
+#descrition{
+	text-indent: 31px;
+	font-family: 'Tahoma', 'Verdana';
+
+}
+
+#deadTime{
+	display: inline;
+	font-size: 1.2em;
+	font-family: 'Tahoma', 'Verdana';
+	color: #7A7A7A;
+}
+
+.titleModle, .descrModle, .deadlineModle, .releaseModle{
+	margin-bottom: 15px;
+}
