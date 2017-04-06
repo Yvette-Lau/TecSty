@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>未批改作文列表</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./css/waitCorrection.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+</head>
+<body>
+	<div class="content">
+		<div class="row">
+			<div class="col-md-9">
+				<div class="center-content">
+					<div class="row" id="headRow">
+						<div class="col-md-7 col-md-offset-5">
+							<label for="filters" class="filters">条件过滤：</label>
+							<select name="selectpicker" class="selectpicker">
+								<option value="stuName">学生名</option>
+								<option value="className">班级名</option>
+								<option value="school">学校</option>	
+							</select>
+							<input type="text" class="serchcondition">
+							<button class="btn btn-success" type="button">搜索</button>
+						</div>
+					</div>
+
+					<hr>
+				
+					<div class="section-table">
+						<div class="row">
+							<table class="table  table-striped table-hover table-responsive">
+								<thead>
+									<th>题目</th>
+									<th>班级</th>
+									<th>学生</th>
+									<th>状态</th>
+									<th>操作</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td>生活不仅有眼前的苟且</td>
+										<td>四级2班</td>
+										<td>马伟彬</td>
+										<td>
+											<i class="fa fa-minus" aria-hidden="true">
+												<span>未批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+									<tr>
+										<td>还有读不懂的代码</td>
+										<td>六级6班</td>
+										<td>陈儿子</td>
+										<td>
+											<i class="fa fa-check" aria-hidden="true">
+												<span>已批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+									<tr>
+										<td>生活不仅有眼前的苟且</td>
+										<td>四级2班</td>
+										<td>马伟彬</td>
+										<td>
+											<i class="fa fa-minus" aria-hidden="true">
+												<span>未批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+									<tr>
+										<td>生活不仅有眼前的苟且</td>
+										<td>四级2班</td>
+										<td>马伟彬</td>
+										<td>
+											<i class="fa fa-minus" aria-hidden="true">
+												<span>未批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+									<tr>
+										<td>生活不仅有眼前的苟且</td>
+										<td>四级2班</td>
+										<td>马伟彬</td>
+										<td>
+											<i class="fa fa-minus" aria-hidden="true">
+												<span>未批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+									<tr>
+										<td>生活不仅有眼前的苟且</td>
+										<td>四级2班</td>
+										<td>马伟彬</td>
+										<td>
+											<i class="fa fa-minus" aria-hidden="true">
+												<span>未批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+									<tr>
+										<td>生活不仅有眼前的苟且</td>
+										<td>四级2班</td>
+										<td>马伟彬</td>
+										<td>
+											<i class="fa fa-minus" aria-hidden="true">
+												<span>未批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+									<tr>
+										<td>生活不仅有眼前的苟且</td>
+										<td>四级2班</td>
+										<td>马伟彬</td>
+										<td>
+											<i class="fa fa-minus" aria-hidden="true">
+												<span>未批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+									<tr>
+										<td>生活不仅有眼前的苟且</td>
+										<td>四级2班</td>
+										<td>马伟彬</td>
+										<td>
+											<i class="fa fa-minus" aria-hidden="true">
+												<span>未批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+									<tr>
+										<td>生活不仅有眼前的苟且</td>
+										<td>四级2班</td>
+										<td>马伟彬</td>
+										<td>
+											<i class="fa fa-minus" aria-hidden="true">
+												<span>未批改</span>
+											</i>
+										</td>
+										<td>
+											<button class="btn btn-primary btn-sm">批改</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<div class="section-footer">
+						<div class="row" id="footerRow">
+							<div class="col-md-6 col-md-offset-6">
+								<div class="jpager-right">
+									<div class="inner">
+										<ul class="pagination">
+											<li><a href="#">&laquo;</a></li>
+											<li><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">&raquo;</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="jpager-left">展示 1 - 5 每页10条 总共 50条</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
