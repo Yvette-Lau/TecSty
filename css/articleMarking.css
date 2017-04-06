@@ -1,0 +1,156 @@
+.content{
+	position: relative;
+	width: 960px;
+	/*height: 1600px;*/
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid grey;
+}
+
+.titleModle{
+	width: 900px;
+	/*height: 39px;*/
+	padding: 4px;
+	/*border: 1px solid red;*/
+}
+
+.titleName{
+	width: 880px;
+	height: 28px;
+	/*border: 1px solid pink;*/
+}
+
+#topicLabel{
+	font-size: 1.3em;
+}
+
+#topicAss{
+	display: inline;
+	font-size: 1.2em;
+	font-family: 'Tahoma', 'Verdana';
+	color: #7A7A7A;
+	background-color: #FDF5E6;
+}
+
+.descrModle{
+	margin:1px 0;
+	padding: 3px;
+	width: 900px;
+	/*height: 110px;*/
+	/*border: 1px solid grey;*/
+}
+
+#descrName{
+	font-size: 1.3em;
+	margin-bottom: 0px;
+}
+
+.descrShow{
+	width: 888px;
+	/*height: 70px;*/
+	padding-left: 4px;
+	/*border: 1px solid orange;*/
+	background-color: #FAFAD2;
+}
+
+#descrition{
+	text-indent: 31px;
+	font-family: 'Tahoma', 'Verdana';
+
+}
+
+.articleModle{
+	width: 900px;
+	/*height:1200px;*/
+	/*border: 1px solid red;*/
+	padding: 0 3px;
+}
+
+#articleName{
+	font-size: 1.3em;
+	margin-bottom: 0px;
+}
+
+.articleShow{
+	margin: 5px 15px;
+	width: 860px;
+	/*height: 1150px;*/
+	/*border: 1px solid orange;*/
+	background-color: #F0FFF0;
+}
+
+#article{
+	margin-top: 5px;
+	margin-left: 5px;
+	text-indent: 31px;
+	font-family: 'Tahoma', 'Verdana';
+}
+
+.commentModel{
+	margin-top: 3px;
+	width: 900px;
+	/*border: 1px solid red;*/
+	padding: 0 3px;
+}
+
+#commentName{
+	font-size: 1.3em;
+	margin-bottom: 0px;
+}
+
+.commentShow{
+	margin: 5px 15px;
+	width: 860px;
+	/*height: 1150px;*/
+	/*border: 1px solid orange;*/
+	background-color: #FDF5E6;
+}
+
+#comment{
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: 'Tahoma', 'Verdana';
+}
+
+.marksModel{
+
+	margin-top: 3px;
+	width: 190px;
+	/*border: 1px solid red;*/
+	padding: 0 3px;
+}
+
+
+#marksName{
+	font-size: 1.3em;
+	margin-bottom: 0px;
+}
+
+.marksShow{
+	width: 80px;
+	/*border: 1px solid orange;*/
+}
+
+#marks{
+	color: red;
+	font-weight: 700;
+	font-size: 3em;
+	margin-top: 1px;
+	margin-left: 1px;
+	font-family: 'Tahoma', 'Verdana';
+}
+
+
+#marksTitle{
+	border-bottom: 0;
+	text-align: center;
+}
+
+
+.fa-plus-circle{
+	color: #9AFF9A;
+}
+
+.fa-minus-circle{
+	color: 	#FF3030;
+}
