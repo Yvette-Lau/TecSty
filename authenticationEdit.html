@@ -7,6 +7,8 @@
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/authenticationEdit.js"></script>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery.validate.min.js"></script>
 	<link rel="stylesheet" href="./css/authenticationEdit.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 </head>
@@ -15,148 +17,167 @@
 		<div class="row">
 			<div class="col-md-9">
 				<div class="center-content">
-					<div class="row infoRow">
-						<div class="col-md-2 col-md-offset-3">
-							<div class="row">
-								<div class="col-md-8 col-md-offset-4">
-									<label for="tecName">真实姓名：</label>
+					<form action="#" id="authenticationForm" method="post" role="form">
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-3 col-md-offset-2">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-5">
+											<label for="tecName">真实姓名：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<input type="text" id="username" name="username" tabindex="1" class="form-control" placeholder="Username" value="">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<input type="text" id="username" name="username" tabindex="1" class="form-control" placeholder="Username" value="">
-						</div>
-					</div>
-					<div class="row infoRow">
-						<div class="col-md-2 col-md-offset-3">
-							<div class="row">
-								<div class="col-md-8 col-md-offset-4">
-									<label for="tecName">年龄：</label>
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-2 col-md-offset-3">
+									<div class="row">
+										<div class="col-md-8 col-md-offset-4">
+											<label for="tecName">年龄：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<input type="text" id="age" name="age" tabindex="1" class="form-control" placeholder="age" value="">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<input type="text" id="age" name="age" tabindex="1" class="form-control" placeholder="age" value="">
-						</div>
-					</div>
-					<div class="row infoRow">
-						<div class="col-md-2 col-md-offset-3">
-							<div class="row">
-								<div class="col-md-8 col-md-offset-4">
-									<label for="tecName">性别：</label>
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-2 col-md-offset-3">
+									<div class="row">
+										<div class="col-md-8 col-md-offset-4">
+											<label for="tecName">性别：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<label class="radio-inline" for="Training-0" id="girlRadio">
+										<input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+											女
+									</label>
+									<label class="radio-inline" for="Training-1" id="boyRaido">
+										<input type="radio" name="Training" id="Training-1" value="no">
+											男
+									</label>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<form role="form">
-								 <label class="radio-inline" for="Training-0" id="girlRadio">
-      								<input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
-      								女
-    							</label>
-    							<label class="radio-inline" for="Training-1" id="boyRaido">
-      								<input type="radio" name="Training" id="Training-1" value="no">
-      								男
-    							</label>
-							</form>
-						</div>
-					</div>
-					<div class="row infoRow">
-						<div class="col-md-2 col-md-offset-3">
-							<div class="row">
-								<div class="col-md-8 col-md-offset-4">
-									<label for="tecName">电子邮箱：</label>
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-3 col-md-offset-2">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-5">
+											<label for="tecName">电子邮箱：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<input type="email" id="email" name="email" tabindex="1" class="form-control" placeholder="Email Adreess" value="">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<input type="email" id="email" name="email" tabindex="1" class="form-control" placeholder="Email Adreess" value="">
-						</div>
-					</div>
-					<div class="row infoRow">
-						<div class="col-md-2 col-md-offset-3">
-							<div class="row">
-								<div class="col-md-8 col-md-offset-4">
-									<label for="tecName">毕业院校：</label>
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-3 col-md-offset-2">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-5">
+											<label for="tecName">毕业院校：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<input type="text" id="gradCollege" name="gradCollege" tabindex="1" class="form-control" placeholder="毕业院校" value="">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<input type="text" id="gradCollege" name="gradCollege" tabindex="1" class="form-control" placeholder="毕业院校" value="">
-						</div>
-					</div>
-					<div class="row infoRow">
-						<div class="col-md-2 col-md-offset-3">
-							<div class="row">
-								<div class="col-md-8 col-md-offset-4">
-									<label for="tecName">就业单位：</label>
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-3 col-md-offset-2">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-5">
+											<label for="tecName">就业单位：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<input type="text" id="work" name="work" tabindex="1" class="form-control" placeholder="就业单位" value="">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<input type="text" id="work" name="work" tabindex="1" class="form-control" placeholder="就业单位" value="">
-						</div>
-					</div>
-					<div class="row infoRow">
-						<div class="col-md-2 col-md-offset-3">
-							<div class="row">
-								<div class="col-md-7 col-md-offset-5">
-									<label for="diploNum">学位：</label>
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-3 col-md-offset-2">
+									<div class="row">
+										<div class="col-md-5 col-md-offset-6">
+											<label for="diploNum">学位：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<select class="form-control">
+										<option>初中</option>
+										<option>高中</option>
+										<option>大专</option>
+										<option>学士</option>
+										<option>硕士</option>
+										<option>博士</option>
+									</select>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<select class="form-control">
-								<option>初中</option>
-								<option>高中</option>
-								<option>大专</option>
-								<option>学士</option>
-								<option>硕士</option>
-								<option>博士</option>
-							</select>
-						</div>
-					</div>
-					<div class="row infoRow">
-						<div class="col-md-3 col-md-offset-2">
-							<div class="row">
-								<div class="col-md-7 col-md-offset-5">
-									<label for="diploNum">学历证号：</label>
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-3 col-md-offset-2">
+									<div class="row">
+										<div class="col-md-7 col-md-offset-5">
+											<label for="diploNum">学历证号：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<input type="text" id="diploNum" name="diploNum" tabindex="1" class="form-control" placeholder="学历证号" value="">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<input type="text" id="diploNum" name="diploNum" tabindex="1" class="form-control" placeholder="学历证号" value="">
-						</div>
-					</div>
-					<div class="row infoRow">
-						<div class="col-md-3 col-md-offset-2">
-							<div class="row">
-								<div class="col-md-7 col-md-offset-5">
-									<label for="tecName">教师资格证号：</label>
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-4 col-md-offset-1">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-6">
+											<label for="tecName">教师资格证号：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<input type="text" id="tecID" name="tecID" tabindex="1" class="form-control" placeholder="教师资格证号" value="">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<input type="text" id="tecID" name="tecID" tabindex="1" class="form-control" placeholder="教师资格证号" value="">
-						</div>
-					</div>
-					<div class="row infoRow">
-						<div class="col-md-3 col-md-offset-2" id="certiPic">
-							<div class="row">
-								<div class="col-md-7 col-md-offset-5" >
-									<label for="tecName">资格证照片：</label>
+						<div class="form-group">
+							<div class="row infoRow">
+								<div class="col-md-3 col-md-offset-2" id="certiPic">
+									<div class="row">
+										<div class="col-md-7 col-md-offset-5" >
+											<label for="tecName">资格证照片：</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<input type="file" style="width:200px">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<input type="file" style="width:200px">
+						<div class="row" id="submintBtn">
+							<div class="col-md-2 col-md-offset-5">
+								<button type="submit" class="btn btn-primary">提交</button>
+							</div>
 						</div>
-					</div>
-				
-					<div class="row" id="submintBtn">
-						<div class="col-md-2 col-md-offset-5">
-							<button type="button" class="btn btn-primary">提交</button>
-						</div>
-					</div>
+					</form>
 				</div>
 			</div>
 		</div>

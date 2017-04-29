@@ -224,3 +224,11 @@ label{
 	color: #fff;
 	background-color: #2D3B55;
 }
+
+li {
+	list-style-type: none;
+}
+
+li .error{
+	color: red;
+}

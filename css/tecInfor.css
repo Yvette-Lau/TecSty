@@ -63,3 +63,11 @@ body{
 	margin-top: 10px;
 	padding-right: 180px;
 }
+
+li {
+	list-style-type: none;
+}
+
+li .error{
+	color: red;
+}

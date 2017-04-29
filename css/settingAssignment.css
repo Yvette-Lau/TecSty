@@ -1,0 +1,23 @@
+.center-content{
+	border: 1px solid black;
+	margin: 20px;
+	height: 900px;
+	padding-top: 55px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#assLabel{
+	margin-top: 8px;
+	padding: 0px;
+}
+
+#assDesLabel{
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+#deadLineLabel{
+	padding: 0px;
+}

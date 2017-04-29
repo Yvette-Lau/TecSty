@@ -26,3 +26,11 @@ label{
 #submintBtn{
 	margin-top: 20px;
 }
+
+li {
+	list-style-type: none;
+}
+
+li .error{
+	color: red;
+}
