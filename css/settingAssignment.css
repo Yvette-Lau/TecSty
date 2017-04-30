@@ -1,7 +1,7 @@
 .center-content{
 	border: 1px solid black;
 	margin: 20px;
-	height: 900px;
+	height: 930px;
 	padding-top: 55px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -19,5 +19,27 @@
 }
 
 #deadLineLabel{
+	margin-top: 5px;
 	padding: 0px;
+}
+
+#calendarCol{
+	padding: 0px;
+}
+
+#timeCol{
+	padding: 0px; 
+}
+
+#submintBtn{
+	position:relative;
+	top:500px;
+}
+
+li {
+	list-style-type: none;
+}
+
+li .error{
+	color: red;
 }

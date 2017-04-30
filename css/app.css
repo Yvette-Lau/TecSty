@@ -5,11 +5,12 @@
 
 .calendar-input {
     width: 130px;
-    height: 25px;
+    height: 33px;
     border: 1px solid #6F6F6F;
     font-size: 14px;
     outline: none;
     color: #979797;
+    text-align: center;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     float: left;
@@ -18,7 +19,7 @@
 .calendar-show {
     background: #28BDB7;
     width: 25px;
-    height: 25px;
+    height: 33px;
     border: 1px solid #6F6F6F;
     border-left: none;
     border-top-right-radius: 3px;
@@ -37,7 +38,7 @@
     background-size: contain;
     width: 17px;
     height: 17px;
-    margin: 4px;
+    margin: 7px 4px;
 }
 
 .calendar {

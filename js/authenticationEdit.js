@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 	jQuery.validator.addMethod("diplo",function(value,element){
 		var length = value.length;
-		var age = /^\d{5}[1-6]\d{12}$/;
+		var diplo = /^\d{5}[1-6]\d{12}$/;
 		return this.optional(element) || (length ==18 && diplo.test(value));
 	},
 	"学历证号格式错误"
@@ -19,7 +19,7 @@ $(document).ready(function(){
 	jQuery.validator.addMethod("tecID",function(value,element){
 		var length = value.length;
 		var tecID = /^\d{17}$/;
-		return this.optional(element) || (length ==17 && diplo.test(value));
+		return this.optional(element) || (length ==17 && tecID.test(value));
 	},
 	"教师资格证号格式错误"
 	);
