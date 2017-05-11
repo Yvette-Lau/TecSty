@@ -1,0 +1,37 @@
+.center-content{
+	border: 1px solid black;
+	margin: 20px;
+	padding-top: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+
+.section-table{
+	margin: 1px 20px;
+	padding: 20px;
+	height: 430px;
+	/*border: 1px solid red;*/
+}
+
+.section-footer{
+	height: 80px;
+	/*border: 1px solid red;*/
+}
+
+#footerRow{
+	padding: 7px;
+	height: 100px;
+}
+
+.jpager-right{
+	float: left;
+	width: 170px;
+}
+.jpager-left{
+	margin: 25px 8px;
+	float: left;
+	color: #1b75bb;
+	font-size: 1em;
+}
