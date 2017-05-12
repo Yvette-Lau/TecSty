@@ -25,3 +25,28 @@
 15.waitCorrection.html：待批改作文
 15.articleMarking.html: 作文待批改。
 16.articleScore.html: 查看作文分数
+
+
+----------------------------------------------------------------------------
+JS引用：
+1.article-marking.vue   (jquery.min.js   bootstrap.min.js  articleMarking.js)
+2.assignment-information.vue   (jquery.min.js  bootstrap.min.js)
+3.assignment-list.vue  (jquery.min.js   bootstrap.min.js)
+4.class-info.vue  （jquery.min.js   bootstrap.min.js）
+5.class-list.vue   (jquery.min.js   bootstrap.min.js)
+6.composition-correct-list.vue   (jquery.min.js   bootstrap.min.js)
+7.edit-class.vue  (jquery.min.js    bootstrap.min.js)
+8.establish-class.vue (jquery.min.js    bootstrap.min.js)
+9.personnel-Manage.vue (jquery.min.js   bootstrap.min.js)
+
+
+10.class-side-bar.vue  (jquery.min.js   bootstrap.min.js  sidebar.js)
+11.head-bar.vue  (jquery.min.js  bootstrap.min.js)
+12.student-side-bar.vue   (jquery.min.js   bootstrap.min.js  sidebar.js)
+13.user-side-bar.vue   (jquery.min.js   bootstrap.min.js  sidebar.js)
+
+
+14.article-score.vue  (jquery.min.js   bootstrap.min.js   articleScore.js)
+15.student-application-list.vue   (jquery.min.js   bootstrap.min.js  )
+16.student-info.vue  (jquery.min.js   bootstrap.min.js)
+17student-list.vue   (jquery.min.js   bootstrap.min.js)

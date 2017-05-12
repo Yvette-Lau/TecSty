@@ -49,45 +49,31 @@
 		<div class="commentModel">
 			<label for="commentName" id="commentName">教师评语：</label>
 			<div class="commentShow">
-				<p id="comment">
-					1.You have a good set of argument here. The idea and subjects are likewise interconnected and a clearly understood.
-					<br>
-					<br>
-					2.Just avoid staments that bear no significance to the issue or those that have no substance at all.
-				</p>
-			</div>
-		</div>
-
-		<div class="marksContent">
-			<div class="row">
-				<div class="col-md-3 col-md-offset-9">
-					<div class="marksModel">
-						<div class="row">
-							<div class="col-md-5">
-								<label for="marksName" id="marksName">分数：</label>
-							</div>
-							<div class="col-md-7">
-								<div class="marksShow">
-									<p id="marks">
-										-- 
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<textarea name="tecomment" cols="120" rows="5">
+					
+				</textarea>
 			</div>
 		</div>
 
 		<div class="details">
 			<div class="row">
-				<div class="col-md-2 col-md-offset-10">
+				<div class="col-md-2">
 					<span>
 						<a href="#" data-toggle="modal" data-target="#marksDetails">
-							批改
+							点击评分
 						</a>
 					</span>
 				</div> 
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5">
+					<button class="btn btn-primary">
+						提交
+					</button>
+				</div>
 			</div>
 		</div>
 
@@ -98,7 +84,7 @@
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
-						<h4 class="modal-titile" id="marksDetails">评分:</h4>
+						<h4 class="modal-titile">评分:</h4>
 					</div>
 					<div class="modal-body">
 						<table class="table table-bordered table-hover" id="tab">
@@ -132,9 +118,9 @@
 								</tr>
 							</tbody>
 						</table>
-						
-
 					</div>
+
+					
 					<div class="modal-footer">
 						<button type="button" class="btn btn-primary" data-dismiss="modal">提交</button>
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

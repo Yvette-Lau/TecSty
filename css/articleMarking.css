@@ -98,18 +98,12 @@
 	margin-bottom: 0px;
 }
 
-.commentShow{
-	margin: 5px 15px;
-	width: 860px;
-	/*height: 1150px;*/
-	/*border: 1px solid orange;*/
-	background-color: #FDF5E6;
-}
 
-#comment{
-	margin-top: 5px;
-	margin-left: 5px;
-	font-family: 'Tahoma', 'Verdana';
+.details a{
+	margin-top: 20px;
+	font-size: 1.3em;
+	color: red;
+	font-weight: 700;
 }
 
 .marksModel{

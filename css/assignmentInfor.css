@@ -20,7 +20,7 @@
 	/*border: 1px solid pink;*/
 }
 
-#topicLabel, #deadline{
+#topicLabel, .deadline{
 	font-size: 1.3em;
 }
 
@@ -59,7 +59,7 @@
 
 }
 
-#deadTime{
+.deadTime{
 	display: inline;
 	font-size: 1.2em;
 	font-family: 'Tahoma', 'Verdana';
